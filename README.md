@@ -45,7 +45,7 @@ En este caso el principio se ubica en la clase Instrumento, cada vez que tenga q
 ---
 Este principio se basa en asegurarnos de que cuando extendemos una clase, no estamos alterando el comportamiento de la clase principal, en lo práctico el principio expone como si se tiene una clase base que tiene una clase derivada y esta última se sustituye y el programa sigue funcionando, entonces la clase derivada es una subtipo de la clase base, y se cumple con lo que se enuncia inicialmente.
 
-![Diagrama de clases: PRU](https://github.com/aebolivar/principios-SOLID/blob/master/Diagrama%20de%20Clases/PrincipioSustitucionLiskov.png)
+![Diagrama de clases: PRU](https://github.com/aebolivar/Aplicacion_principios_SOLID/blob/master/Diagrama%20de%20Clases/PrincipioSustitucionLiskov.png)
 
 #### Principio de Segregación de Interfaces
 ---
