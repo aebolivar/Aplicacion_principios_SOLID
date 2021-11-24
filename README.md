@@ -12,7 +12,7 @@ A través de este programa se podrá gestionar los musicos e instrumentos, de ma
 
 ### DISEÑO: Diagrama de Clases📋
 --- 	
-![Diagrama de clases: PRU](https://github.com/aebolivar/principios-SOLID/blob/master/Diagrama%20de%20Clases/Diagrama%20de%20Clases.jpg)
+![Diagrama de clases: PRU](https://github.com/aebolivar/Aplicacion_principios_SOLID/blob/master/Diagrama%20de%20Clases/Diagrama%20de%20Clases.png)
 
 ### Aplicando los principios SOLID 🔧
 ---
