@@ -66,23 +66,3 @@ En este caso este principio se evidencia en la creación de la clase Instrumento
 Primera parte: Diseño, que se encuentra en el presente README
 Segunda parte: Implementación, que se encuentra en la carpeta "orquesta_final"
 
-### Configuración🛠️
----
-
-<p align="center"> <img src="https://github.com/aebolivar/principios-SOLID/blob/master/imagenes%20README/Python.png" width="200" height="200"/> </p> 
-
-El lenguaje de progrmación utilizado fue Python, version 3.6.
-
-<p align="center"> <img src="https://github.com/aebolivar/principios-SOLID/blob/master/imagenes%20README/Flask.png" width="400" height="200"/> </p> 
-
-Para poder ejecutar el programa correctamente debe tener instalado Flask.
-Flask es un MicroFrameWork, un ambiente web.
-Para instalar Flask usar el siguiente comando:
-
-![Diagrama de clases](https://github.com/aebolivar/principios-SOLID/blob/master/Diagrama%20de%20Clases/pip.png)
-
-'pip install Flask'
-
-Para mayor información consulte la pagina de Flask: https://flask.palletsprojects.com/en/1.1.x/installation/
-OBSERVACIÓN: Si su consola no reconoce 'pip' como un comando seguramente deberá modificar la configuración de 'PATH'.
-
