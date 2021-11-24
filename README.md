@@ -31,7 +31,7 @@ Este principio es el que se refiere a que una clase debe cambiar por una unica r
 
 En este caso especifico este principio se aplico en la separación entre las clases de cada instrumento y la representación de estos, la clase conserva sus metodos, y la interfaz incluso se puede extende para terminal o navegador para ver la representación del instrumento, para así mostrar como si cambia alguna de las dos clases no va a afectar a la otra, se abran logrado desacoplar.
 
-![Diagrama de clases: PRU](https://github.com/aebolivar/principios-SOLID/blob/master/Diagrama%20de%20Clases/PrincipioResponsabilidadUnica.png)
+![Diagrama de clases: PRU](https://github.com/aebolivar/Aplicacion_principios_SOLID/blob/master/Diagrama%20de%20Clases/PrincipioResponsabilidadUnica.png)
 
 #### Principio de Open/Closed
 ---
@@ -39,7 +39,7 @@ Este es el principio que trata sobre como las clases deben estar abiertas a exte
 
 En este caso el principio se ubica en la clase Instrumento, cada vez que tenga que agregar otro nuevo tipo de instrumentos, se debe modificar el código y es allí donde aplicamos el principio Open/Closed exactamente cuando yo desee agregar otra funcionalidad, en este caso, otro tipo de instrumentos, no tengo que modificar la clase de Instrumento, porque esta se penso como una clase abstracta que tiene los metodos de tocar y afinar que se utilizan para todos los tipos de instrumentos sin que se tenga que tocar la clase Instrumento posteriormente.
 
-![Diagrama de clases: PRU](https://github.com/aebolivar/principios-SOLID/blob/master/Diagrama%20de%20Clases/PrincipioOpenClosed.png)
+![Diagrama de clases: PRU](https://github.com/aebolivar/Aplicacion_principios_SOLID/blob/master/Diagrama%20de%20Clases/PrincipioOpen_Closed.png)
 
 #### Principio de Sustitución de Liskov
 ---
@@ -51,7 +51,7 @@ Este principio se basa en asegurarnos de que cuando extendemos una clase, no est
 ---
 En este caso este principio se enfoco en la clase Musico y se analizo como esta tenía metodos que no iba a implementar en todos los casos, y contrario a solucionarlo con un metodo vacío o una expeción, se debe tener como guia este principio que nos habla acerca de que las clases no deben depender de interfaces que no se vayan a utilizar, para este caso se tomo la interfaz que tenia dos metodos y se dividio en dos interfaces, esto permite que las interfaces se usen por completo, esto se hizo de esta forma para visualizar ell principio a pequeña escala pero ya en una situación más compleja la solución no es tan sencilla y se puede solucionar con un patron de diseño.
 
-![Diagrama de clases: PRU](https://github.com/aebolivar/principios-SOLID/blob/master/Diagrama%20de%20Clases/PrincipioSegregaci%C3%B3nInterfaces.png)
+![Diagrama de clases: PRU](https://github.com/aebolivar/Aplicacion_principios_SOLID/blob/master/Diagrama%20de%20Clases/PrincipioSegregacionInterfaces.png)
 
 #### Principio de Inversión de Dependencias
 ---
@@ -59,7 +59,7 @@ Este principio trata acerca de que los modulos de nivel alto no deben depender d
 
 En este caso este principio se evidencia en la creación de la clase Instrumento donde se encuentran dos metodos, afinar y tocar, y si estos se crean en una interfaz que sea funcionesInstrumento y por medio de una inyección de dependencias mediante el constructor, es decir, llamar a los metodos de la interfaz desde la clase , se puede observar como puedo cambiar la interfaz sin afectar el comportamiento. 
 
-![Diagrama de clases: PRU](https://github.com/aebolivar/principios-SOLID/blob/master/Diagrama%20de%20Clases/PrincipioInversi%C3%B3ndeDependencias.png)
+![Diagrama de clases: PRU](https://github.com/aebolivar/Aplicacion_principios_SOLID/blob/master/Diagrama%20de%20Clases/PrincipioInversionDependencias.png)
 
 ### Información Adicional⚙️
 ---
